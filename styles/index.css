@@ -1,0 +1,34 @@
+#navbar{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border: 1px solid black;
+    
+}
+a{
+    margin-right: 30px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+#slideshow>img{
+    margin: auto;
+    width: 100%;
+    height: 560px;
+}
+
+select{
+    background-color: gainsboro;
+    margin-left: 10px;
+}
+
+#movies{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+
